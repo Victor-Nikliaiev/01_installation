@@ -1,10 +1,12 @@
 import React from 'react';
-import { LoginControl } from './greetings';
+import { MailBox } from './MailBox';
+
+const messages = ['React', 'Re: React', 'Re:Re: React'];
 
 function App() {
 	return (
 		<>
-			<LoginControl />
+			<MailBox unreadMessages={messages} />
 		</>
 	);
 }
