@@ -5,7 +5,7 @@ export const MailBox = props => {
 
 	return (
 		<>
-			<h1>Hello!</h1>
+			<h1>Hello, dear User!</h1>
 			{unreadMessages.length > 0 && (
 				<h2>You have {unreadMessages.length} unread messages</h2>
 			)}
